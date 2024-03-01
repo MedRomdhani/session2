@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>CRUD OPERATING</title>
+</head>
+
+<body>
+  <div class="d-flex flex-column justify-content-center align-items-center p-5 mx-[20]">
+    <h1>CRUD Operations with Node.js API</h1>
+    <div class="sahdow d-flex flex-column border rounded border-withe p-3 my-5 w-75 ">
+      <label for="name">Product Name</label>
+      <input class="rounded" type="text" name="name" id="name">
+      <label for="price">Product Price</label>
+      <input class="rounded" type="number" name="price" id="price">
+      <label for="desccription">Product Description</label>
+      <textarea class="rounded" name="description" id="description" rows="6"></textarea>
+      <div class="d-grid gap-2">
+        <button class=" btn btn-outline-info" id="add">Add Product</button>
+        <button class="btn btn-outline-info" id="update">Update Product</button>
+      </div>
+    </div>
+    <div class="w-75">
+      <table class="w-100 p-5 items">
+        <tr class="text-center border-top border-bottom border-white border-1">
+          <th class="p-2">Index</th>
+          <th>Name</th>
+          <th>Price</th>
+          <th>Description</th>
+          <th>Actions</th>
+        </tr>
+
+      </table>
+    </div>
+  </div>
+  <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>

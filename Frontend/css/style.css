@@ -1,0 +1,23 @@
+#update {
+  display: none;
+}
+
+body {
+  background-color: #192939;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-family: "segoe ui light", serif;
+}
+
+input, textarea {
+  background-color: #cacaca !important;
+  border-color: #cacaca !important;
+  color: #41464b !important;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+.shadow {
+  box-shadow: 0 0.7rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
